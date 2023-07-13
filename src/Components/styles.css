@@ -1,0 +1,89 @@
+a.app-logo{
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar-profile{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+.navbar-profile-name{
+    white-space: nowrap;
+    margin-left: 0.5rem;
+}
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link{
+    font-size: .9375rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    white-space: nowrap;
+    line-height: 1;
+}
+.no-caret.dropdown-toggle::after{
+    display: none !important;
+}
+ul.navbar-nav.navbar-nav-right{
+    display: flex;
+    align-items: center;
+}
+a#basic-nav-dropdown span{
+    margin-left: 0.5rem;
+}
+
+.side-nav {
+    color: #252525;
+    border-radius: 20px;
+  }
+  
+.side-nav.active {
+    color: white;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #01aaec;
+    background: #01aaec;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.side-nav:focus{
+    color: white;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #01aaec;
+    background: #01aaec;
+    border-radius: 20px;
+}
+.side-nav:hover{
+    border: 1px solid #252525;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+label{
+    display: block;
+}
+.primary-sbmt{
+    color: #fff;
+    background: orangered;
+    padding: 5px 20px;
+    border: 1px solid orangered;
+    border-radius: 15px;
+    float: right;
+}
+.error{
+    color: red;
+}
+.sidebar-card{
+    padding: 0px 10px;
+    border: 1px solid #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 100vh;
+}
+.navbar-card{
+    border: 1px solid #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: #fff;
+    padding: 0px;
+}
+.navbar-dcd{
+    padding-left: 25px;
+    padding-right: 25px;
+}
