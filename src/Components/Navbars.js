@@ -5,7 +5,7 @@ const Navbars = () => {
   return (
     <Card className="navbar-card">
     <Navbar variant="light" expand="lg" className="navbar-dcd"> 
-      <Navbar.Brand href="#home">E1 Doc Extractor</Navbar.Brand>
+      <Navbar.Brand href="#home">E1_Doc Extractor</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbar-nav" />
       <Navbar.Collapse id="navbar-nav">
         <Nav className="ms-auto me-2" variant="light">
