@@ -1,10 +1,10 @@
 import React from "react";
 import { Col, Nav,Card } from "react-bootstrap";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import "./styles.css";
 
 const Sidebar = () => {
-  const location = useLocation();
+  
 
   return (
     <Col md={3} className="bg-light" style={{ width: "285px", paddingLeft: "0px", paddingRight: "0px" }} >

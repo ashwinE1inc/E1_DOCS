@@ -1,6 +1,5 @@
 import React from "react";
-import { Navbar, Nav, Container, Row, Col, NavDropdown, Image, Card } from "react-bootstrap";
-import { AiFillCaretDown } from "react-icons/ai";
+import { Navbar, Nav,NavDropdown, Image, Card } from "react-bootstrap";
 
 const Navbars = () => {
   return (
